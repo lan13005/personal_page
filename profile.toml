@@ -168,6 +168,7 @@ summary.web = "Published research in top physics journals applying deep learning
   [[experience.project]]
   id             = "exotic-hadrons-prd"
   title          = "Deep Learning Exotic Hadrons"
+  paper          = "https://arxiv.org/abs/2110.13742"
   featured       = false
   start          = "2021-01-01"
   end            = "2021-10-01"
@@ -180,6 +181,7 @@ summary.web = "Published research in top physics journals applying deep learning
   [[experience.project]]
   id             = "supernova-cvae"
   title          = "Supernova Spectral Templates using conditional VAEs"
+  paper          = "https://iopscience.iop.org/article/10.3847/1538-4357/acc100/meta"
   featured       = false
   start          = "2023-01-01"
   end            = "2023-05-01"

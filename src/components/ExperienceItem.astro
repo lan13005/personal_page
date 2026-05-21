@@ -63,16 +63,28 @@ const sorted = sortProjects(projects ?? []);
                   >
                     {p.title}
                   </a>
-                  {p.github && (
-                    <a
-                      href={p.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="shrink-0 text-xs font-medium text-accent hover:underline"
-                    >
-                      GitHub →
-                    </a>
-                  )}
+                  <div class="flex shrink-0 gap-2">
+                    {p.paper && (
+                      <a
+                        href={p.paper}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-xs font-medium text-accent hover:underline"
+                      >
+                        Paper →
+                      </a>
+                    )}
+                    {p.github && (
+                      <a
+                        href={p.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="text-xs font-medium text-accent hover:underline"
+                      >
+                        GitHub →
+                      </a>
+                    )}
+                  </div>
                 </div>
 
                 {(p.start || p.end) && (

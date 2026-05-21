@@ -47,6 +47,8 @@ Google's crawler will eventually find your page and index it. To speed it up, yo
 2. Click "Add Property" > "URL Prefix" > Enter github.io URL
 3. Copy HTML tag > Paste into src/layouts/BaseLayout.astro `<head>` section before `<body>`
 
+This process can take some time. Check Google Search Console > Pages > Why pages aren't index. You can force a validation. It can help to have real inbound links, i.e. from LinkedIn (add website under contact info)
+
 ## Assets to replace
 
 - `public/og-image.svg` — replace with a real 1200×630 OG image

@@ -16,6 +16,7 @@ export interface Project {
   featured?: boolean;
   github?: string;
   demo?: string;
+  paper?: string;
   summary: Summary;
   start?: Date;
   end?: Date;
