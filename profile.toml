@@ -6,8 +6,8 @@ role             = "Bridging Research and AI"
 greeting         = "Hello! I'm Lawrence."
 tagline          = "I am bridging research and AI."
 og_image         = "/og-image.svg"
-meta_title       = "Lawrence Ng — Postdoctoral Fellow"
-meta_description = "Personal site of Lawrence Ng, a physicist and ML researcher at Thomas Jefferson National Accelerator Facility."
+meta_title       = "Lawrence Ng — Research Software Engineer"
+meta_description = "Personal site of Lawrence Ng, a research software engineer at Princeton University."
 
 bio = """
 I am interested in understanding the world around us through statistics and computation,  \ 
@@ -115,6 +115,31 @@ tags     = ["python"]
 summary.cv  = "Research software engineer at the AI Lab at Princeton University."
 summary.web = "Research software engineer at the AI Lab at Princeton University."
 
+  [[experience.project]]
+  id             = "blackspaces"
+  title          = "Blackspaces"
+  featured       = false
+  github         = "https://github.com/lan13005/blackspaces"
+  start          = "2026-02-14"
+  end            = "2026-06-14"
+  timeline_label = "start"
+  tags           = ["python", "splink", "BERTopic", "HDBSCAN"]
+
+  summary.cv  = "Analyzed 2024 election survey responses from Black Americans using topic modeling to extract latent themes, clustering to identify distinct voter subpopulations, and performed probabilistic record linkage against L2 voter data."
+  summary.web = "Analyzed responses from a 2024 election survey of Black Americans that oversampled groups often underrepresented in polling, including Black men and Black Republicans. Used BERTopic to uncover themes in open-ended responses and HDBSCAN to identify voter subpopulations associated with socioeconomic factors such as income, employment, education, religion, and organizational membership. Used Splink to probabilistically link survey respondents with L2 voter records, enriching the survey data and assessing its accuracy."
+
+  [[experience.project]]
+  id             = "llmms-core"
+  title          = "LLMMS Core"
+  featured       = false
+  github         = "https://github.com/lan13005/llmms-core"
+  start          = "2026-02-14"
+  end            = "2026-07-14"
+  timeline_label = "start"
+  tags           = ["python", "Large Language Models"]
+
+  summary.cv  = "Developed a Python framework for training foundation models on small-metabolite mass spectra to support molecular structure retrieval directly from spectra."
+  summary.web = "Developed and packaged a Python framework for training foundation models on mass spectra from small metabolites. Like protein language models that learn from amino acid sequences, these models learn spectral representations that can support tasks such as retrieving molecular structures directly from spectra. Built the training pipeline with PyTorch Lightning and established a maintainable software stack using Pixi, pytest, MkDocs, and GitHub Actions."
 
 [[experience]]
 id       = "jlab"
