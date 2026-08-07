@@ -116,7 +116,7 @@ summary.web = "Research software engineer at the AI Lab at Princeton University.
 
   [[experience.project]]
   id             = "blackspaces"
-  title          = "Blackspaces"
+  title          = "blackspaces"
   featured       = false
   github         = "https://github.com/lan13005/blackspaces"
   start          = "2026-02-14"
@@ -133,7 +133,7 @@ summary.web = "Research software engineer at the AI Lab at Princeton University.
   featured       = false
   github         = "https://github.com/lan13005/llmms-core"
   start          = "2026-02-14"
-  end            = "2026-07-14"
+  end            = "2026-08-14"
   timeline_label = "start"
   tags           = ["python", "Large Language Models"]
 
