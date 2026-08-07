@@ -82,7 +82,6 @@ blurb = "Physical problem solving"
 icon  = "lucide:target"
 title = "Racquetball"
 blurb = "Will settle for tennis for now..."
-note  = "If you're in the Princeton area and know of a good court to play at, hit me up!"
 
 [[site.activity]]
 icon  = "lucide:gamepad-2"
@@ -130,7 +129,7 @@ summary.web = "Research software engineer at the AI Lab at Princeton University.
 
   [[experience.project]]
   id             = "llmms-core"
-  title          = "LLMMS Core"
+  title          = "llmms-core"
   featured       = false
   github         = "https://github.com/lan13005/llmms-core"
   start          = "2026-02-14"
@@ -163,7 +162,7 @@ summary.web = "Developed non-parametric statistical frameworks and end-to-end an
   tags           = ["python", "jax", "openmpi", "gaussian-processes", "variational-inference", "information-theory"]
 
   summary.cv  = "Declarative framework for smooth non-parametric statistical models using Gaussian Processes and Variational Inference, enabling Bayesian inference over O(10^6) free parameters."
-  summary.web = "Developing a declarative framework for smooth non-parametric statistical models using Python, JAX, and OpenMPI with Gaussian Processes and Variational Inference, enabling Bayesian inference over O(10^6) free parameters."
+  summary.web = "Developed a framework for identifying and characterizing hadronic resonances through Bayesian inference over large parameter spaces, O(10⁶). The approach uses Gaussian processes and variational inference to model unknown components of mass spectra non-parametrically with phyiscal smoothness priors. These components can be interfered with parametric models of known processes, such as resonance line shapes, to describe the full spectrum."
 
   [[experience.project]]
   id             = "pyamptools"
@@ -176,7 +175,7 @@ summary.web = "Developed non-parametric statistical frameworks and end-to-end an
   tags           = ["python", "c++", "normalizing-flows", "bayesian-inference"]
 
   summary.cv  = "End-to-end analysis pipeline: physics event generation, detector efficiency emulation via normalizing flows, interfacing with Bayesian and frequentist optimization frameworks. Includes Python bindings for the collaboration's C++ software and user-facing documentation."
-  summary.web = "Built an end-to-end analysis pipeline generating physics events from a model, emulating detector efficiency via normalizing flows, and interfacing with both Bayesian- and frequentist-based optimization frameworks for rapid closure tests. Contains Python bindings for the collaboration's C++ analysis software and maintains user-facing documentation to ensure long-term sustainability."
+  summary.web = "Built an end-to-end analysis pipeline for generating physics events, emulating detector efficiency with normalizing flows, and running rapid closure tests with Bayesian and frequentist inference. Added Python bindings for the collaboration's C++ analysis software and user-facing documentation to support long-term maintenance. Integrations with SciPy, Minuit, emcee, and NumPyro enable maximum-likelihood and Bayesian fits, making it easier to compare inference methods and diagnose method-specific pathologies."
 
 
 [[experience]]
